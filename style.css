@@ -1,0 +1,112 @@
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(#90EE90, #137B13);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(#90EE90, #137B13);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #0d98ba;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+h1 {
+  color: black;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 3rem;
+  padding-top: 100px;
+  text-align: Center;
+  width: 100%;
+  margin-left: 0px;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  color: AliceBlue;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: center;
+  margin-left:150px;
+  width: 80%;
+}
+
+ul{
+  color: #FFF;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 32px;
+  width: 60%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+li {
+  color: red;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-align: left;
+  padding: 0 40px;
+}
+
+.social {
+  color: rgba(255, 255, 255, 0.5);
+  float: landscape;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #87ceeb;
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  padding: 14px;
+}
+
+.content {
+  padding: 40px;
+}
+
+.image {
+  float: center;
+  border: 0px solid #FFF;
+  border-radius: 500px;
+  margin-left: 20px;
+  display: block;
+}
+
+#footer{
+	margin-top:100px;
+	font-size:.75rem;
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  background-color: none;
+  color: #87ceeb;
+  } 
